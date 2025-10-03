@@ -1,0 +1,36 @@
+# Brain Tumor Detection with YOLOv7 - Main Dependencies
+# Usage: pip install -r requirements.txt
+
+# Core ML Libraries
+torch>=1.7.0,!=1.12.0
+torchvision>=0.8.1,!=0.13.0
+numpy>=1.18.5,<1.24.0
+opencv-python>=4.1.1
+Pillow>=7.1.2
+
+# Data Processing
+pandas>=1.1.4
+scipy>=1.4.1
+PyYAML>=5.3.1
+
+# Visualization
+matplotlib>=3.2.2
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.41.0
+requests>=2.23.0
+protobuf<4.21.3
+
+# Logging and Monitoring
+tensorboard>=2.4.1
+
+# Development Tools
+ipython
+psutil
+thop
+
+# Optional: Advanced Features
+# wandb  # Uncomment for Weights & Biases logging
+# albumentations>=1.0.3  # Uncomment for advanced augmentations
+# pycocotools>=2.0  # Uncomment for COCO evaluation
