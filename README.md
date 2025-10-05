@@ -22,7 +22,7 @@ Each folder contains:
 This phase focused on validating the YOLOv7 framework on a medical dataset. A model was trained for 50 epochs on a pre-formatted brain tumor MRI dataset from Kaggle.
 
 * **To see the full process:** Open the notebook located in `1_Brain_Tumor_Reproduction/`.
-* **Dataset Used:** [Brain Tumor Detection (YOLO format)](https://www.kaggle.com/datasets/dhruv1222/brain-tumor-detection-yolov7)
+* **Dataset Used:** [Brain Tumor Detection (YOLO format)](https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets)
 
 ### Sample Result
 ![Brain Tumor Detection Result](1_Brain_Tumor_Reproduction/results/brain_tumor_result1.jpg)
@@ -34,7 +34,7 @@ This phase focused on validating the YOLOv7 framework on a medical dataset. A mo
 To demonstrate the versatility of the framework, it was applied to a new challenge: detecting pneumonia in chest X-rays. This required adapting the model to a different imaging modality and pathology. A quick proof-of-concept was trained for 2 epochs.
 
 * **To see the full process:** Open the notebook located in `2_Pneumonia_Extension/`.
-* **Dataset Used:** [RSNA Pneumonia Detection (YOLO format)](https://www.kaggle.com/datasets/much-sa/rsna-pneumonia-detection-yolo)
+* **Dataset Used:** [RSNA Pneumonia Detection (YOLO format)](https://www.kaggle.com/datasets/volodymyrmakhotilo/rsna-pneumonia-detection-challenge-yolo)
 
 ### Sample Result
 ![Pneumonia Detection Result](2_Pneumonia_Extension/results/pneumonia_result1.jpg)
